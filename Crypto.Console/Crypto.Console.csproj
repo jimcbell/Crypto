@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cryptography\Cryptography.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -16,7 +20,7 @@
     </None>
   </ItemGroup>
 	<ItemGroup>
-		<Using Include="System.Console" Static="true"/>
+		<Using Include="System.Console" Static="true" />
 	</ItemGroup>
 
 </Project>
