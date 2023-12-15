@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\class-libs\JCLibraries\Cryptography\Cryptography.csproj" />
+    <ProjectReference Include="..\..\..\class-libs\JCLibraries\IO.Library\IO.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -18,8 +23,5 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-	<ItemGroup>
-		<Using Include="System.Console" Static="true" />
-	</ItemGroup>
 
 </Project>

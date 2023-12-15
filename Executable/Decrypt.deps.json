@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Decrypt/1.0.0": {
+        "dependencies": {
+          "Cryptography": "1.0.0",
+          "IO.Library": "1.0.0"
+        },
+        "runtime": {
+          "Decrypt.dll": {}
+        }
+      },
+      "Cryptography/1.0.0": {
+        "runtime": {
+          "Cryptography.dll": {}
+        }
+      },
+      "IO.Library/1.0.0": {
+        "runtime": {
+          "IO.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Decrypt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cryptography/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IO.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
