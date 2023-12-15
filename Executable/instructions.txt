@@ -1,0 +1,4 @@
+1. Put key in key.txt
+2. Put encrypted/decrypted text in input.txt
+3. Run either encrypt or decrypt
+4. Get output from output.txt
